@@ -2,6 +2,7 @@ package com.folksdev.account.controller;
 
 import com.folksdev.account.dto.CustomerDto;
 import com.folksdev.account.service.CustomerService;
+import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

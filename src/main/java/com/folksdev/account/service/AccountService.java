@@ -7,6 +7,7 @@ import com.folksdev.account.model.Account;
 import com.folksdev.account.model.Customer;
 import com.folksdev.account.model.Transaction;
 import com.folksdev.account.repository.AccountRepository;
+import jakarta.validation.Valid;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
